@@ -1,5 +1,5 @@
 
-import css from './FeedbackOptions.module.css'
+import css from '../FeedbackOptions/FeedbackOptions.module.css'
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => (
 <ul className={css.feedbackList}>
   {options.map(name => {
